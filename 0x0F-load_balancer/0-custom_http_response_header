@@ -3,7 +3,7 @@
 # the scrips are updrades from the web-server scripts...
 
 # uncomment to see the script run in action
-#set -x
+# set -x
 
 echo -e "Updating and doing some minor checks...\n"
 
@@ -15,7 +15,7 @@ function install() {
 		echo -e "	Installing: $15\n"
 		sudo apt-get update -y -qq && \
 			sudo apt-get install -y "$1" -qq
-		eche -e "\n"
+		echo -e "\n"
 	else
 		echo -e "	$(1) is already installed.\n"
 	fi
