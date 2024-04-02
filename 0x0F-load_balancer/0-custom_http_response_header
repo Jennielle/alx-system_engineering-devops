@@ -18,7 +18,7 @@ function install() {
 		eche -e "\n"
 	else
 		echo -e "	$(1) is already installed.\n"
-	fI
+	fi
 }
 
 install nginx #install nginx
