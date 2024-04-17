@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 echo -e "*** Allow Port **\n"
 sudo ufw allow 3306
 sudo ufw disable
